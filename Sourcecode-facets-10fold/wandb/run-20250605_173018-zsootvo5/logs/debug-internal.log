@@ -1,0 +1,43 @@
+2025-06-05 17:30:18,475 INFO    StreamThr :3564 [internal.py:wandb_internal():85] W&B internal server running at pid: 3564, started at: 2025-06-05 17:30:18.475353
+2025-06-05 17:30:18,475 DEBUG   HandlerThread:3564 [handler.py:handle_request():158] handle_request: status
+2025-06-05 17:30:18,488 INFO    WriterThread:3564 [datastore.py:open_for_write():87] open: e:\CYBER\5. Thesis Internship\Sourcecode-facets-10fold\wandb\run-20250605_173018-zsootvo5\run-zsootvo5.wandb
+2025-06-05 17:30:18,488 DEBUG   SenderThread:3564 [sender.py:send():378] send: header
+2025-06-05 17:30:18,488 DEBUG   SenderThread:3564 [sender.py:send():378] send: run
+2025-06-05 17:30:19,537 INFO    SenderThread:3564 [dir_watcher.py:__init__():211] watching files in: e:\CYBER\5. Thesis Internship\Sourcecode-facets-10fold\wandb\run-20250605_173018-zsootvo5\files
+2025-06-05 17:30:19,546 DEBUG   HandlerThread:3564 [handler.py:handle_request():158] handle_request: check_version
+2025-06-05 17:30:19,587 INFO    SenderThread:3564 [sender.py:_start_run_threads():1123] run started: zsootvo5 with start time 1749141018.475352
+2025-06-05 17:30:19,587 DEBUG   SenderThread:3564 [sender.py:send_request():405] send_request: check_version
+2025-06-05 17:30:21,341 DEBUG   HandlerThread:3564 [handler.py:handle_request():158] handle_request: run_start
+2025-06-05 17:30:21,388 DEBUG   HandlerThread:3564 [system_info.py:__init__():26] System info init
+2025-06-05 17:30:21,388 DEBUG   HandlerThread:3564 [system_info.py:__init__():41] System info init done
+2025-06-05 17:30:21,388 INFO    HandlerThread:3564 [system_monitor.py:start():194] Starting system monitor
+2025-06-05 17:30:21,388 INFO    SystemMonitor:3564 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-06-05 17:30:21,388 INFO    HandlerThread:3564 [system_monitor.py:probe():214] Collecting system info
+2025-06-05 17:30:21,388 INFO    SystemMonitor:3564 [interfaces.py:start():188] Started cpu monitoring
+2025-06-05 17:30:21,388 INFO    SystemMonitor:3564 [interfaces.py:start():188] Started disk monitoring
+2025-06-05 17:30:21,388 INFO    SystemMonitor:3564 [interfaces.py:start():188] Started gpu monitoring
+2025-06-05 17:30:21,404 INFO    SystemMonitor:3564 [interfaces.py:start():188] Started memory monitoring
+2025-06-05 17:30:21,419 INFO    SystemMonitor:3564 [interfaces.py:start():188] Started network monitoring
+2025-06-05 17:30:21,419 DEBUG   HandlerThread:3564 [system_info.py:probe():150] Probing system
+2025-06-05 17:30:21,435 DEBUG   HandlerThread:3564 [gitlib.py:_init_repo():56] git repository is invalid
+2025-06-05 17:30:21,435 DEBUG   HandlerThread:3564 [system_info.py:probe():198] Probing system done
+2025-06-05 17:30:21,435 DEBUG   HandlerThread:3564 [system_monitor.py:probe():223] {'os': 'Windows-11-10.0.26100-SP0', 'python': '3.12.0', 'heartbeatAt': '2025-06-05T16:30:21.419789', 'startedAt': '2025-06-05T16:30:18.355531', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'e:\\CYBER\\5. Thesis Internship\\Sourcecode-facets-10fold\\main.py', 'codePathLocal': 'main.py', 'codePath': 'main.py', 'host': 'LAPTOP-03DV2J9E', 'username': 'Ansari Amir', 'executable': 'C:\\Users\\Ansari Amir\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3000.0, 'min': 0.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 3000.0, 'min': 0.0, 'max': 3000.0}], 'disk': {'/': {'total': 931.4960899353027, 'used': 750.0400886535645}}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 7.421142578125}}
+2025-06-05 17:30:21,435 INFO    HandlerThread:3564 [system_monitor.py:probe():224] Finished collecting system info
+2025-06-05 17:30:21,435 INFO    HandlerThread:3564 [system_monitor.py:probe():227] Publishing system info
+2025-06-05 17:30:21,435 INFO    HandlerThread:3564 [system_monitor.py:probe():229] Finished publishing system info
+2025-06-05 17:30:21,451 DEBUG   SenderThread:3564 [sender.py:send():378] send: files
+2025-06-05 17:30:21,451 INFO    SenderThread:3564 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2025-06-05 17:30:21,547 INFO    Thread-16 :3564 [dir_watcher.py:_on_file_created():271] file/dir created: e:\CYBER\5. Thesis Internship\Sourcecode-facets-10fold\wandb\run-20250605_173018-zsootvo5\files\wandb-metadata.json
+2025-06-05 17:30:21,897 DEBUG   HandlerThread:3564 [handler.py:handle_request():158] handle_request: python_packages
+2025-06-05 17:30:21,897 DEBUG   SenderThread:3564 [sender.py:send_request():405] send_request: python_packages
+2025-06-05 17:30:21,897 DEBUG   HandlerThread:3564 [handler.py:handle_request():158] handle_request: stop_status
+2025-06-05 17:30:21,897 DEBUG   SenderThread:3564 [sender.py:send_request():405] send_request: stop_status
+2025-06-05 17:30:22,548 INFO    Thread-16 :3564 [dir_watcher.py:_on_file_created():271] file/dir created: e:\CYBER\5. Thesis Internship\Sourcecode-facets-10fold\wandb\run-20250605_173018-zsootvo5\files\requirements.txt
+2025-06-05 17:30:22,865 DEBUG   SenderThread:3564 [sender.py:send():378] send: telemetry
+2025-06-05 17:30:22,897 DEBUG   SenderThread:3564 [sender.py:send():378] send: telemetry
+2025-06-05 17:30:22,897 DEBUG   SenderThread:3564 [sender.py:send():378] send: telemetry
+2025-06-05 17:30:23,291 INFO    wandb-upload_0:3564 [upload_job.py:push():130] Uploaded file C:\Users\ANSARI~1\AppData\Local\Temp\tmpy54sd1tuwandb\g0f7jts0-wandb-metadata.json
+2025-06-05 17:30:23,551 INFO    Thread-16 :3564 [dir_watcher.py:_on_file_created():271] file/dir created: e:\CYBER\5. Thesis Internship\Sourcecode-facets-10fold\wandb\run-20250605_173018-zsootvo5\files\output.log
+2025-06-05 17:30:23,914 DEBUG   HandlerThread:3564 [handler.py:handle_request():158] handle_request: status_report
+2025-06-05 17:30:25,559 INFO    Thread-16 :3564 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\CYBER\5. Thesis Internship\Sourcecode-facets-10fold\wandb\run-20250605_173018-zsootvo5\files\output.log
+2025-06-05 17:30:27,569 INFO    Thread-16 :3564 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\CYBER\5. Thesis Internship\Sourcecode-facets-10fold\wandb\run-20250605_173018-zsootvo5\files\output.log

@@ -1,0 +1,12 @@
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+wandb: WARNING Ignored wandb.init() arg project when running a sweep.
+wandb: WARNING Ignored wandb.init() arg entity when running a sweep.
+0 9
+1 9
+2 9
+3 9
+4 9
+5 9
+6 9
+7 9
+8 9

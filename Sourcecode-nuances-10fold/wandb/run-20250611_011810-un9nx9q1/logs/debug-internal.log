@@ -1,0 +1,328 @@
+2025-06-11 01:18:10,708 INFO    StreamThr :15448 [internal.py:wandb_internal():85] W&B internal server running at pid: 15448, started at: 2025-06-11 01:18:10.708079
+2025-06-11 01:18:10,724 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status
+2025-06-11 01:18:10,742 INFO    WriterThread:15448 [datastore.py:open_for_write():87] open: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\run-un9nx9q1.wandb
+2025-06-11 01:18:10,742 DEBUG   SenderThread:15448 [sender.py:send():378] send: header
+2025-06-11 01:18:10,742 DEBUG   SenderThread:15448 [sender.py:send():378] send: run
+2025-06-11 01:18:11,467 INFO    SenderThread:15448 [dir_watcher.py:__init__():211] watching files in: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files
+2025-06-11 01:18:11,467 INFO    SenderThread:15448 [sender.py:_start_run_threads():1123] run started: un9nx9q1 with start time 1749601090.724026
+2025-06-11 01:18:11,482 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: check_version
+2025-06-11 01:18:11,482 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: check_version
+2025-06-11 01:18:12,071 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: run_start
+2025-06-11 01:18:12,104 DEBUG   HandlerThread:15448 [system_info.py:__init__():26] System info init
+2025-06-11 01:18:12,104 DEBUG   HandlerThread:15448 [system_info.py:__init__():41] System info init done
+2025-06-11 01:18:12,104 INFO    HandlerThread:15448 [system_monitor.py:start():194] Starting system monitor
+2025-06-11 01:18:12,104 INFO    SystemMonitor:15448 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-06-11 01:18:12,104 INFO    HandlerThread:15448 [system_monitor.py:probe():214] Collecting system info
+2025-06-11 01:18:12,104 INFO    SystemMonitor:15448 [interfaces.py:start():188] Started cpu monitoring
+2025-06-11 01:18:12,104 INFO    SystemMonitor:15448 [interfaces.py:start():188] Started disk monitoring
+2025-06-11 01:18:12,104 INFO    SystemMonitor:15448 [interfaces.py:start():188] Started gpu monitoring
+2025-06-11 01:18:12,119 INFO    SystemMonitor:15448 [interfaces.py:start():188] Started memory monitoring
+2025-06-11 01:18:12,138 INFO    SystemMonitor:15448 [interfaces.py:start():188] Started network monitoring
+2025-06-11 01:18:12,144 DEBUG   HandlerThread:15448 [system_info.py:probe():150] Probing system
+2025-06-11 01:18:12,327 DEBUG   HandlerThread:15448 [gitlib.py:_init_repo():56] git repository is invalid
+2025-06-11 01:18:12,327 DEBUG   HandlerThread:15448 [system_info.py:probe():198] Probing system done
+2025-06-11 01:18:12,327 DEBUG   HandlerThread:15448 [system_monitor.py:probe():223] {'os': 'Windows-11-10.0.26100-SP0', 'python': '3.12.0', 'heartbeatAt': '2025-06-11T00:18:12.144312', 'startedAt': '2025-06-11T00:18:10.692231', 'docker': None, 'cuda': None, 'args': ('--section', 'ghost'), 'state': 'running', 'program': 'E:\\CYBER\\5. Thesis Internship\\Sourcecode-nuances-10fold\\main.py', 'codePathLocal': 'main.py', 'codePath': 'main.py', 'host': 'LAPTOP-03DV2J9E', 'username': 'Ansari Amir', 'executable': 'C:\\Users\\Ansari Amir\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3000.0, 'min': 0.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 3000.0, 'min': 0.0, 'max': 3000.0}], 'disk': {'/': {'total': 931.4960899353027, 'used': 748.105396270752}}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 7.421142578125}}
+2025-06-11 01:18:12,327 INFO    HandlerThread:15448 [system_monitor.py:probe():224] Finished collecting system info
+2025-06-11 01:18:12,327 INFO    HandlerThread:15448 [system_monitor.py:probe():227] Publishing system info
+2025-06-11 01:18:12,327 INFO    HandlerThread:15448 [system_monitor.py:probe():229] Finished publishing system info
+2025-06-11 01:18:12,343 DEBUG   SenderThread:15448 [sender.py:send():378] send: files
+2025-06-11 01:18:12,343 INFO    SenderThread:15448 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2025-06-11 01:18:12,487 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_created():271] file/dir created: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\wandb-metadata.json
+2025-06-11 01:18:12,630 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: python_packages
+2025-06-11 01:18:12,630 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: python_packages
+2025-06-11 01:18:12,630 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: stop_status
+2025-06-11 01:18:12,630 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: stop_status
+2025-06-11 01:18:12,836 DEBUG   SenderThread:15448 [sender.py:send():378] send: telemetry
+2025-06-11 01:18:12,836 DEBUG   SenderThread:15448 [sender.py:send():378] send: telemetry
+2025-06-11 01:18:12,836 DEBUG   SenderThread:15448 [sender.py:send():378] send: telemetry
+2025-06-11 01:18:13,378 INFO    wandb-upload_0:15448 [upload_job.py:push():130] Uploaded file C:\Users\ANSARI~1\AppData\Local\Temp\tmp24q8pxz9wandb\a79x5c97-wandb-metadata.json
+2025-06-11 01:18:13,487 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_created():271] file/dir created: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\requirements.txt
+2025-06-11 01:18:13,487 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_created():271] file/dir created: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:18:15,511 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:18:15,854 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status_report
+2025-06-11 01:18:16,518 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:18:18,532 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:18:20,560 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:18:20,940 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status_report
+2025-06-11 01:18:22,571 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:18:24,591 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:18:26,030 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status_report
+2025-06-11 01:18:26,611 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:18:27,650 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: stop_status
+2025-06-11 01:18:27,650 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: stop_status
+2025-06-11 01:18:28,620 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:18:29,080 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: partial_history
+2025-06-11 01:18:29,080 DEBUG   SenderThread:15448 [sender.py:send():378] send: history
+2025-06-11 01:18:29,080 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: summary_record
+2025-06-11 01:18:29,080 INFO    SenderThread:15448 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2025-06-11 01:18:29,633 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_created():271] file/dir created: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\wandb-summary.json
+2025-06-11 01:18:30,643 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:18:31,533 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status_report
+2025-06-11 01:18:32,652 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:18:34,675 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:18:36,700 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:18:36,795 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status_report
+2025-06-11 01:18:37,708 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:18:39,730 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:18:41,756 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:18:42,026 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status_report
+2025-06-11 01:18:42,655 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: stop_status
+2025-06-11 01:18:42,655 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: stop_status
+2025-06-11 01:18:42,764 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\config.yaml
+2025-06-11 01:18:43,780 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:18:45,795 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:18:47,065 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: partial_history
+2025-06-11 01:18:47,065 DEBUG   SenderThread:15448 [sender.py:send():378] send: history
+2025-06-11 01:18:47,065 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: summary_record
+2025-06-11 01:18:47,065 INFO    SenderThread:15448 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2025-06-11 01:18:47,813 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:18:47,813 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\wandb-summary.json
+2025-06-11 01:18:48,004 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status_report
+2025-06-11 01:18:49,836 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:18:51,860 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:18:53,114 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status_report
+2025-06-11 01:18:53,886 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:18:55,903 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:18:57,679 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: stop_status
+2025-06-11 01:18:57,679 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: stop_status
+2025-06-11 01:18:57,919 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:18:58,355 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status_report
+2025-06-11 01:18:59,939 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:01,943 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:03,703 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status_report
+2025-06-11 01:19:03,974 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:05,290 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: partial_history
+2025-06-11 01:19:05,290 DEBUG   SenderThread:15448 [sender.py:send():378] send: history
+2025-06-11 01:19:05,290 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: summary_record
+2025-06-11 01:19:05,290 INFO    SenderThread:15448 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2025-06-11 01:19:05,991 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:05,991 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\wandb-summary.json
+2025-06-11 01:19:08,008 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:09,293 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status_report
+2025-06-11 01:19:10,026 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:12,029 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:12,141 DEBUG   SystemMonitor:15448 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-06-11 01:19:12,332 DEBUG   SenderThread:15448 [sender.py:send():378] send: stats
+2025-06-11 01:19:12,668 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: stop_status
+2025-06-11 01:19:12,668 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: stop_status
+2025-06-11 01:19:14,035 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:14,419 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status_report
+2025-06-11 01:19:16,041 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:18,060 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:19,427 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status_report
+2025-06-11 01:19:20,082 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:22,110 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:23,195 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: partial_history
+2025-06-11 01:19:23,197 DEBUG   SenderThread:15448 [sender.py:send():378] send: history
+2025-06-11 01:19:23,197 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: summary_record
+2025-06-11 01:19:23,197 INFO    SenderThread:15448 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2025-06-11 01:19:24,115 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:24,115 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\wandb-summary.json
+2025-06-11 01:19:24,541 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status_report
+2025-06-11 01:19:26,132 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:27,690 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: stop_status
+2025-06-11 01:19:27,690 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: stop_status
+2025-06-11 01:19:28,148 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:30,165 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:30,353 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status_report
+2025-06-11 01:19:32,195 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:34,218 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:35,452 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status_report
+2025-06-11 01:19:36,231 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:38,248 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:40,266 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:40,473 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status_report
+2025-06-11 01:19:40,857 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: partial_history
+2025-06-11 01:19:40,859 DEBUG   SenderThread:15448 [sender.py:send():378] send: history
+2025-06-11 01:19:40,859 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: summary_record
+2025-06-11 01:19:40,859 INFO    SenderThread:15448 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2025-06-11 01:19:41,282 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\wandb-summary.json
+2025-06-11 01:19:42,141 DEBUG   SenderThread:15448 [sender.py:send():378] send: stats
+2025-06-11 01:19:42,284 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:42,712 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: stop_status
+2025-06-11 01:19:42,712 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: stop_status
+2025-06-11 01:19:44,301 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:46,303 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:46,351 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status_report
+2025-06-11 01:19:48,322 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:50,338 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:51,474 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status_report
+2025-06-11 01:19:52,348 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:54,364 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:56,383 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:56,559 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status_report
+2025-06-11 01:19:57,713 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: stop_status
+2025-06-11 01:19:57,713 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: stop_status
+2025-06-11 01:19:58,396 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:19:58,570 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: partial_history
+2025-06-11 01:19:58,570 DEBUG   SenderThread:15448 [sender.py:send():378] send: history
+2025-06-11 01:19:58,570 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: summary_record
+2025-06-11 01:19:58,570 INFO    SenderThread:15448 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2025-06-11 01:19:59,400 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\wandb-summary.json
+2025-06-11 01:20:00,410 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:20:02,415 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status_report
+2025-06-11 01:20:02,415 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:20:04,431 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:20:06,450 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:20:08,098 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status_report
+2025-06-11 01:20:08,466 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:20:10,484 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:20:12,150 DEBUG   SenderThread:15448 [sender.py:send():378] send: stats
+2025-06-11 01:20:12,498 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:20:12,720 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: stop_status
+2025-06-11 01:20:12,720 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: stop_status
+2025-06-11 01:20:13,230 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status_report
+2025-06-11 01:20:14,513 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:20:16,528 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:20:16,765 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: partial_history
+2025-06-11 01:20:16,765 DEBUG   SenderThread:15448 [sender.py:send():378] send: history
+2025-06-11 01:20:16,765 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: summary_record
+2025-06-11 01:20:16,765 INFO    SenderThread:15448 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2025-06-11 01:20:17,544 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\wandb-summary.json
+2025-06-11 01:20:18,256 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status_report
+2025-06-11 01:20:18,558 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:20:18,717 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: partial_history
+2025-06-11 01:20:18,731 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: partial_history
+2025-06-11 01:20:18,731 DEBUG   SenderThread:15448 [sender.py:send():378] send: history
+2025-06-11 01:20:18,731 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: summary_record
+2025-06-11 01:20:18,731 INFO    SenderThread:15448 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2025-06-11 01:20:18,731 DEBUG   SenderThread:15448 [sender.py:send():378] send: history
+2025-06-11 01:20:18,731 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: summary_record
+2025-06-11 01:20:18,731 INFO    SenderThread:15448 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2025-06-11 01:20:18,783 DEBUG   SenderThread:15448 [sender.py:send():378] send: telemetry
+2025-06-11 01:20:18,795 DEBUG   SenderThread:15448 [sender.py:send():378] send: exit
+2025-06-11 01:20:18,795 INFO    SenderThread:15448 [sender.py:send_exit():585] handling exit code: 0
+2025-06-11 01:20:18,795 INFO    SenderThread:15448 [sender.py:send_exit():587] handling runtime: 126
+2025-06-11 01:20:18,795 INFO    SenderThread:15448 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2025-06-11 01:20:18,795 INFO    SenderThread:15448 [sender.py:send_exit():593] send defer
+2025-06-11 01:20:18,795 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: defer
+2025-06-11 01:20:18,795 INFO    HandlerThread:15448 [handler.py:handle_request_defer():184] handle defer: 0
+2025-06-11 01:20:18,795 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: defer
+2025-06-11 01:20:18,795 INFO    SenderThread:15448 [sender.py:send_request_defer():609] handle sender defer: 0
+2025-06-11 01:20:18,795 INFO    SenderThread:15448 [sender.py:transition_state():613] send defer: 1
+2025-06-11 01:20:18,795 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: defer
+2025-06-11 01:20:18,795 INFO    HandlerThread:15448 [handler.py:handle_request_defer():184] handle defer: 1
+2025-06-11 01:20:18,795 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: defer
+2025-06-11 01:20:18,795 INFO    SenderThread:15448 [sender.py:send_request_defer():609] handle sender defer: 1
+2025-06-11 01:20:18,795 INFO    SenderThread:15448 [sender.py:transition_state():613] send defer: 2
+2025-06-11 01:20:18,795 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: defer
+2025-06-11 01:20:18,795 INFO    HandlerThread:15448 [handler.py:handle_request_defer():184] handle defer: 2
+2025-06-11 01:20:18,795 INFO    HandlerThread:15448 [system_monitor.py:finish():203] Stopping system monitor
+2025-06-11 01:20:18,795 DEBUG   SystemMonitor:15448 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-06-11 01:20:18,807 INFO    HandlerThread:15448 [interfaces.py:finish():200] Joined cpu monitor
+2025-06-11 01:20:18,807 DEBUG   SystemMonitor:15448 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-06-11 01:20:18,807 INFO    HandlerThread:15448 [interfaces.py:finish():200] Joined disk monitor
+2025-06-11 01:20:18,846 INFO    HandlerThread:15448 [interfaces.py:finish():200] Joined gpu monitor
+2025-06-11 01:20:18,846 INFO    HandlerThread:15448 [interfaces.py:finish():200] Joined memory monitor
+2025-06-11 01:20:18,846 INFO    HandlerThread:15448 [interfaces.py:finish():200] Joined network monitor
+2025-06-11 01:20:18,846 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: defer
+2025-06-11 01:20:18,846 INFO    SenderThread:15448 [sender.py:send_request_defer():609] handle sender defer: 2
+2025-06-11 01:20:18,846 INFO    SenderThread:15448 [sender.py:transition_state():613] send defer: 3
+2025-06-11 01:20:18,846 DEBUG   SenderThread:15448 [sender.py:send():378] send: stats
+2025-06-11 01:20:18,846 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: defer
+2025-06-11 01:20:18,846 INFO    HandlerThread:15448 [handler.py:handle_request_defer():184] handle defer: 3
+2025-06-11 01:20:18,846 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: defer
+2025-06-11 01:20:18,846 INFO    SenderThread:15448 [sender.py:send_request_defer():609] handle sender defer: 3
+2025-06-11 01:20:18,846 INFO    SenderThread:15448 [sender.py:transition_state():613] send defer: 4
+2025-06-11 01:20:18,846 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: defer
+2025-06-11 01:20:18,846 INFO    HandlerThread:15448 [handler.py:handle_request_defer():184] handle defer: 4
+2025-06-11 01:20:18,846 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: defer
+2025-06-11 01:20:18,846 INFO    SenderThread:15448 [sender.py:send_request_defer():609] handle sender defer: 4
+2025-06-11 01:20:18,846 INFO    SenderThread:15448 [sender.py:transition_state():613] send defer: 5
+2025-06-11 01:20:18,846 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: defer
+2025-06-11 01:20:18,846 INFO    HandlerThread:15448 [handler.py:handle_request_defer():184] handle defer: 5
+2025-06-11 01:20:18,846 DEBUG   SenderThread:15448 [sender.py:send():378] send: summary
+2025-06-11 01:20:18,846 INFO    SenderThread:15448 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2025-06-11 01:20:18,846 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: defer
+2025-06-11 01:20:18,846 INFO    SenderThread:15448 [sender.py:send_request_defer():609] handle sender defer: 5
+2025-06-11 01:20:18,846 INFO    SenderThread:15448 [sender.py:transition_state():613] send defer: 6
+2025-06-11 01:20:18,846 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: defer
+2025-06-11 01:20:18,846 INFO    HandlerThread:15448 [handler.py:handle_request_defer():184] handle defer: 6
+2025-06-11 01:20:18,846 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: defer
+2025-06-11 01:20:18,846 INFO    SenderThread:15448 [sender.py:send_request_defer():609] handle sender defer: 6
+2025-06-11 01:20:18,846 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status_report
+2025-06-11 01:20:19,036 INFO    SenderThread:15448 [sender.py:transition_state():613] send defer: 7
+2025-06-11 01:20:19,036 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: defer
+2025-06-11 01:20:19,036 INFO    HandlerThread:15448 [handler.py:handle_request_defer():184] handle defer: 7
+2025-06-11 01:20:19,036 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: defer
+2025-06-11 01:20:19,036 INFO    SenderThread:15448 [sender.py:send_request_defer():609] handle sender defer: 7
+2025-06-11 01:20:19,572 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\wandb-summary.json
+2025-06-11 01:20:19,572 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\config.yaml
+2025-06-11 01:20:19,811 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: poll_exit
+2025-06-11 01:20:20,580 INFO    Thread-16 :15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:20:21,774 INFO    SenderThread:15448 [sender.py:transition_state():613] send defer: 8
+2025-06-11 01:20:21,774 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: poll_exit
+2025-06-11 01:20:21,774 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: defer
+2025-06-11 01:20:21,774 INFO    HandlerThread:15448 [handler.py:handle_request_defer():184] handle defer: 8
+2025-06-11 01:20:21,774 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: defer
+2025-06-11 01:20:21,774 INFO    SenderThread:15448 [sender.py:send_request_defer():609] handle sender defer: 8
+2025-06-11 01:20:21,774 INFO    SenderThread:15448 [sender.py:transition_state():613] send defer: 9
+2025-06-11 01:20:21,774 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: defer
+2025-06-11 01:20:21,774 INFO    HandlerThread:15448 [handler.py:handle_request_defer():184] handle defer: 9
+2025-06-11 01:20:21,774 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: defer
+2025-06-11 01:20:21,774 INFO    SenderThread:15448 [sender.py:send_request_defer():609] handle sender defer: 9
+2025-06-11 01:20:21,774 INFO    SenderThread:15448 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-06-11 01:20:21,831 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: poll_exit
+2025-06-11 01:20:22,603 INFO    SenderThread:15448 [dir_watcher.py:_on_file_modified():288] file/dir modified: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:20:22,603 INFO    SenderThread:15448 [dir_watcher.py:finish():388] scan: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files
+2025-06-11 01:20:22,603 INFO    SenderThread:15448 [dir_watcher.py:finish():402] scan save: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\config.yaml config.yaml
+2025-06-11 01:20:22,603 INFO    SenderThread:15448 [dir_watcher.py:finish():402] scan save: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log output.log
+2025-06-11 01:20:22,603 INFO    SenderThread:15448 [dir_watcher.py:finish():402] scan save: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\requirements.txt requirements.txt
+2025-06-11 01:20:22,603 INFO    SenderThread:15448 [dir_watcher.py:finish():402] scan save: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\wandb-metadata.json wandb-metadata.json
+2025-06-11 01:20:22,603 INFO    SenderThread:15448 [dir_watcher.py:finish():402] scan save: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\wandb-summary.json wandb-summary.json
+2025-06-11 01:20:22,603 INFO    SenderThread:15448 [sender.py:transition_state():613] send defer: 10
+2025-06-11 01:20:22,603 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: poll_exit
+2025-06-11 01:20:22,603 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: defer
+2025-06-11 01:20:22,603 INFO    HandlerThread:15448 [handler.py:handle_request_defer():184] handle defer: 10
+2025-06-11 01:20:22,619 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: defer
+2025-06-11 01:20:22,619 INFO    SenderThread:15448 [sender.py:send_request_defer():609] handle sender defer: 10
+2025-06-11 01:20:22,619 INFO    SenderThread:15448 [file_pusher.py:finish():169] shutting down file pusher
+2025-06-11 01:20:22,843 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: poll_exit
+2025-06-11 01:20:22,843 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: poll_exit
+2025-06-11 01:20:22,995 INFO    wandb-upload_0:15448 [upload_job.py:push():130] Uploaded file E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\config.yaml
+2025-06-11 01:20:23,433 INFO    wandb-upload_3:15448 [upload_job.py:push():130] Uploaded file E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\wandb-summary.json
+2025-06-11 01:20:23,848 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: status_report
+2025-06-11 01:20:23,848 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: poll_exit
+2025-06-11 01:20:23,848 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: poll_exit
+2025-06-11 01:20:24,298 INFO    wandb-upload_1:15448 [upload_job.py:push():130] Uploaded file E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\output.log
+2025-06-11 01:20:24,298 INFO    wandb-upload_2:15448 [upload_job.py:push():130] Uploaded file E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\files\requirements.txt
+2025-06-11 01:20:24,507 INFO    Thread-15 (_thread_body):15448 [sender.py:transition_state():613] send defer: 11
+2025-06-11 01:20:24,507 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: defer
+2025-06-11 01:20:24,507 INFO    HandlerThread:15448 [handler.py:handle_request_defer():184] handle defer: 11
+2025-06-11 01:20:24,507 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: defer
+2025-06-11 01:20:24,507 INFO    SenderThread:15448 [sender.py:send_request_defer():609] handle sender defer: 11
+2025-06-11 01:20:24,507 INFO    SenderThread:15448 [file_pusher.py:join():175] waiting for file pusher
+2025-06-11 01:20:24,507 INFO    SenderThread:15448 [sender.py:transition_state():613] send defer: 12
+2025-06-11 01:20:24,507 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: defer
+2025-06-11 01:20:24,507 INFO    HandlerThread:15448 [handler.py:handle_request_defer():184] handle defer: 12
+2025-06-11 01:20:24,507 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: defer
+2025-06-11 01:20:24,507 INFO    SenderThread:15448 [sender.py:send_request_defer():609] handle sender defer: 12
+2025-06-11 01:20:24,507 INFO    SenderThread:15448 [file_stream.py:finish():601] file stream finish called
+2025-06-11 01:20:24,861 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: poll_exit
+2025-06-11 01:20:25,214 INFO    SenderThread:15448 [file_stream.py:finish():605] file stream finish is done
+2025-06-11 01:20:25,214 INFO    SenderThread:15448 [sender.py:transition_state():613] send defer: 13
+2025-06-11 01:20:25,214 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: poll_exit
+2025-06-11 01:20:25,214 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: defer
+2025-06-11 01:20:25,214 INFO    HandlerThread:15448 [handler.py:handle_request_defer():184] handle defer: 13
+2025-06-11 01:20:25,214 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: defer
+2025-06-11 01:20:25,214 INFO    SenderThread:15448 [sender.py:send_request_defer():609] handle sender defer: 13
+2025-06-11 01:20:25,214 INFO    SenderThread:15448 [sender.py:transition_state():613] send defer: 14
+2025-06-11 01:20:25,214 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: defer
+2025-06-11 01:20:25,214 DEBUG   SenderThread:15448 [sender.py:send():378] send: final
+2025-06-11 01:20:25,214 INFO    HandlerThread:15448 [handler.py:handle_request_defer():184] handle defer: 14
+2025-06-11 01:20:25,214 DEBUG   SenderThread:15448 [sender.py:send():378] send: footer
+2025-06-11 01:20:25,214 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: defer
+2025-06-11 01:20:25,214 INFO    SenderThread:15448 [sender.py:send_request_defer():609] handle sender defer: 14
+2025-06-11 01:20:25,214 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: poll_exit
+2025-06-11 01:20:25,214 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: poll_exit
+2025-06-11 01:20:25,214 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: internal_messages
+2025-06-11 01:20:25,214 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: server_info
+2025-06-11 01:20:25,214 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: get_summary
+2025-06-11 01:20:25,214 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: sampled_history
+2025-06-11 01:20:25,214 DEBUG   SenderThread:15448 [sender.py:send_request():405] send_request: server_info
+2025-06-11 01:20:25,503 DEBUG   HandlerThread:15448 [handler.py:handle_request():158] handle_request: shutdown
+2025-06-11 01:20:25,503 INFO    HandlerThread:15448 [handler.py:finish():882] shutting down handler
+2025-06-11 01:20:26,228 INFO    WriterThread:15448 [datastore.py:close():296] close: E:\CYBER\5. Thesis Internship\Sourcecode-nuances-10fold\wandb\run-20250611_011810-un9nx9q1\run-un9nx9q1.wandb
+2025-06-11 01:20:26,518 INFO    SenderThread:15448 [sender.py:finish():1545] shutting down sender
+2025-06-11 01:20:26,518 INFO    SenderThread:15448 [file_pusher.py:finish():169] shutting down file pusher
+2025-06-11 01:20:26,518 INFO    SenderThread:15448 [file_pusher.py:join():175] waiting for file pusher

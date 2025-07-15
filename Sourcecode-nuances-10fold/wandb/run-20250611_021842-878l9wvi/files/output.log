@@ -1,0 +1,373 @@
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+[34m[1mwandb[39m[22m: [33mWARNING[39m Ignored wandb.init() arg project when running a sweep.
+[34m[1mwandb[39m[22m: [33mWARNING[39m Ignored wandb.init() arg entity when running a sweep.
+0 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+1 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+2 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+3 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+4 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+5 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+6 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+7 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+8 9
+torch.Size([8, 30, 80])
+torch.Size([8, 30, 80])
+Epoch: 0 | Loss: 8.8576 | MAE: 2.69 | PCC: 0.14
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBbFirst batch of IDs: tensor([ 85, 186, 190,  85, 124, 119, 119, 145, 119, 190, 145, 124, 182, 141,
+        141, 183, 180, 181, 182, 181, 183, 182, 186, 183])
+tensor([[0.5555, 0.8819, 0.9395,  ..., 1.4630, 0.3934, 2.2046],
+        [0.5555, 0.8819, 0.9395,  ..., 1.4630, 0.3934, 2.2046],
+        [0.5904, 0.9299, 0.8968,  ..., 1.3478, 0.3746, 2.2587],
+        ...,
+        [0.5720, 0.8957, 1.0182,  ..., 1.3849, 0.4496, 2.1803],
+        [0.5932, 0.9657, 0.9576,  ..., 1.3886, 0.4500, 2.1975],
+        [0.5932, 0.9657, 0.9576,  ..., 1.3886, 0.4500, 2.1975]],
+       device='cuda:0') tensor([[1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        ...,
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.]], device='cuda:0')
+Epoch: 0 | VAL Loss: 6.3557 | VAL MAE Loss: 2.14 | VAL PCC: 0.30
+New best validation loss: 6.3557 (previous best: inf)
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+torch.Size([2, 30, 80])
+torch.Size([2, 30, 80])
+0 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+1 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+2 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+3 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+4 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+5 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+6 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+7 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+8 9
+torch.Size([8, 30, 80])
+torch.Size([8, 30, 80])
+Epoch: 1 | Loss: 4.5128 | MAE: 1.81 | PCC: 0.29
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBbFirst batch of IDs: tensor([ 85, 186, 190,  85, 124, 119, 119, 145, 119, 190, 145, 124, 182, 141,
+        141, 183, 180, 181, 182, 181, 183, 182, 186, 183])
+tensor([[1.2210, 1.7309, 1.6201,  ..., 3.2073, 1.6332, 4.2227],
+        [1.2210, 1.7309, 1.6201,  ..., 3.2073, 1.6332, 4.2227],
+        [1.2521, 1.7386, 1.6218,  ..., 3.1391, 1.6329, 4.2354],
+        ...,
+        [1.2310, 1.7336, 1.6439,  ..., 3.1708, 1.6589, 4.2148],
+        [1.2467, 1.7612, 1.6344,  ..., 3.1616, 1.6555, 4.2168],
+        [1.2467, 1.7612, 1.6344,  ..., 3.1616, 1.6555, 4.2168]],
+       device='cuda:0') tensor([[1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        ...,
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.]], device='cuda:0')
+Epoch: 1 | VAL Loss: 2.3493 | VAL MAE Loss: 1.25 | VAL PCC: 0.45
+New best validation loss: 2.3493 (previous best: 6.3557)
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+torch.Size([2, 30, 80])
+torch.Size([2, 30, 80])
+0 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+1 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+2 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+3 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+4 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+5 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+6 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+7 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+8 9
+torch.Size([8, 30, 80])
+torch.Size([8, 30, 80])
+Epoch: 2 | Loss: 1.9921 | MAE: 1.13 | PCC: 0.44
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBbFirst batch of IDs: tensor([ 85, 186, 190,  85, 124, 119, 119, 145, 119, 190, 145, 124, 182, 141,
+        141, 183, 180, 181, 182, 181, 183, 182, 186, 183])
+tensor([[1.2412, 1.7179, 1.6428,  ..., 3.3438, 1.7288, 4.3509],
+        [1.2412, 1.7179, 1.6428,  ..., 3.3438, 1.7288, 4.3509],
+        [1.2709, 1.7260, 1.6462,  ..., 3.2769, 1.7277, 4.3641],
+        ...,
+        [1.2498, 1.7209, 1.6671,  ..., 3.3077, 1.7529, 4.3437],
+        [1.2656, 1.7481, 1.6578,  ..., 3.2989, 1.7498, 4.3458],
+        [1.2656, 1.7481, 1.6578,  ..., 3.2989, 1.7498, 4.3458]],
+       device='cuda:0') tensor([[1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        ...,
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.]], device='cuda:0')
+Epoch: 2 | VAL Loss: 2.1863 | VAL MAE Loss: 1.20 | VAL PCC: 0.47
+New best validation loss: 2.1863 (previous best: 2.3493)
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+torch.Size([2, 30, 80])
+torch.Size([2, 30, 80])
+0 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+1 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+2 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+3 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+4 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+5 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+6 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+7 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+8 9
+torch.Size([8, 30, 80])
+torch.Size([8, 30, 80])
+Epoch: 3 | Loss: 1.8154 | MAE: 1.07 | PCC: 0.47
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBbFirst batch of IDs: tensor([ 85, 186, 190,  85, 124, 119, 119, 145, 119, 190, 145, 124, 182, 141,
+        141, 183, 180, 181, 182, 181, 183, 182, 186, 183])
+tensor([[1.2401, 1.6772, 1.6376,  ..., 3.4824, 1.8341, 4.4685],
+        [1.2401, 1.6772, 1.6376,  ..., 3.4824, 1.8341, 4.4685],
+        [1.2686, 1.6860, 1.6427,  ..., 3.4166, 1.8324, 4.4826],
+        ...,
+        [1.2476, 1.6809, 1.6627,  ..., 3.4465, 1.8569, 4.4618],
+        [1.2642, 1.7073, 1.6528,  ..., 3.4384, 1.8546, 4.4638],
+        [1.2642, 1.7073, 1.6528,  ..., 3.4384, 1.8546, 4.4638]],
+       device='cuda:0') tensor([[1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        ...,
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.]], device='cuda:0')
+Epoch: 3 | VAL Loss: 2.0240 | VAL MAE Loss: 1.16 | VAL PCC: 0.50
+New best validation loss: 2.0240 (previous best: 2.1863)
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+torch.Size([2, 30, 80])
+torch.Size([2, 30, 80])
+0 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+1 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+2 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+3 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+4 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+5 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+6 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+7 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+8 9
+torch.Size([8, 30, 80])
+torch.Size([8, 30, 80])
+Epoch: 4 | Loss: 1.7164 | MAE: 1.04 | PCC: 0.48
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBbFirst batch of IDs: tensor([ 85, 186, 190,  85, 124, 119, 119, 145, 119, 190, 145, 124, 182, 141,
+        141, 183, 180, 181, 182, 181, 183, 182, 186, 183])
+tensor([[1.2392, 1.6748, 1.6368,  ..., 3.4893, 1.8395, 4.4739],
+        [1.2392, 1.6748, 1.6368,  ..., 3.4893, 1.8395, 4.4739],
+        [1.2676, 1.6836, 1.6420,  ..., 3.4234, 1.8377, 4.4880],
+        ...,
+        [1.2466, 1.6785, 1.6619,  ..., 3.4533, 1.8622, 4.4672],
+        [1.2633, 1.7049, 1.6520,  ..., 3.4453, 1.8599, 4.4692],
+        [1.2633, 1.7049, 1.6520,  ..., 3.4453, 1.8599, 4.4692]],
+       device='cuda:0') tensor([[1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        ...,
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.]], device='cuda:0')
+Epoch: 4 | VAL Loss: 2.0160 | VAL MAE Loss: 1.15 | VAL PCC: 0.50
+New best validation loss: 2.0160 (previous best: 2.0240)
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+torch.Size([2, 30, 80])
+torch.Size([2, 30, 80])
+0 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+1 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+2 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+3 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+4 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+5 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+6 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+7 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+8 9
+torch.Size([8, 30, 80])
+torch.Size([8, 30, 80])
+Epoch: 5 | Loss: 1.7180 | MAE: 1.04 | PCC: 0.48
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBbFirst batch of IDs: tensor([ 85, 186, 190,  85, 124, 119, 119, 145, 119, 190, 145, 124, 182, 141,
+        141, 183, 180, 181, 182, 181, 183, 182, 186, 183])
+tensor([[1.2379, 1.6722, 1.6355,  ..., 3.4962, 1.8448, 4.4792],
+        [1.2379, 1.6722, 1.6355,  ..., 3.4962, 1.8448, 4.4792],
+        [1.2663, 1.6811, 1.6408,  ..., 3.4304, 1.8429, 4.4933],
+        ...,
+        [1.2453, 1.6759, 1.6607,  ..., 3.4602, 1.8675, 4.4725],
+        [1.2621, 1.7023, 1.6507,  ..., 3.4522, 1.8652, 4.4746],
+        [1.2621, 1.7023, 1.6507,  ..., 3.4522, 1.8652, 4.4746]],
+       device='cuda:0') tensor([[1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        ...,
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.]], device='cuda:0')
+Epoch: 5 | VAL Loss: 2.0079 | VAL MAE Loss: 1.15 | VAL PCC: 0.50
+New best validation loss: 2.0079 (previous best: 2.0160)
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+torch.Size([2, 30, 80])
+torch.Size([2, 30, 80])
+0 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+1 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+2 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+3 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+4 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+5 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+6 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+7 9
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+8 9
+torch.Size([8, 30, 80])
+torch.Size([8, 30, 80])
+Epoch: 6 | Loss: 1.7097 | MAE: 1.04 | PCC: 0.48
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBbFirst batch of IDs: tensor([ 85, 186, 190,  85, 124, 119, 119, 145, 119, 190, 145, 124, 182, 141,
+        141, 183, 180, 181, 182, 181, 183, 182, 186, 183])
+tensor([[1.2379, 1.6721, 1.6354,  ..., 3.4965, 1.8450, 4.4795],
+        [1.2379, 1.6721, 1.6354,  ..., 3.4965, 1.8450, 4.4795],
+        [1.2662, 1.6810, 1.6407,  ..., 3.4308, 1.8432, 4.4936],
+        ...,
+        [1.2453, 1.6758, 1.6606,  ..., 3.4606, 1.8677, 4.4728],
+        [1.2620, 1.7022, 1.6507,  ..., 3.4526, 1.8654, 4.4748],
+        [1.2620, 1.7022, 1.6507,  ..., 3.4526, 1.8654, 4.4748]],
+       device='cuda:0') tensor([[1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        ...,
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.],
+        [1., 1., 1.,  ..., 5., 5., 5.]], device='cuda:0')
+Epoch: 6 | VAL Loss: 2.0075 | VAL MAE Loss: 1.15 | VAL PCC: 0.50
+New best validation loss: 2.0075 (previous best: 2.0079)
+torch.Size([24, 30, 80])
+torch.Size([24, 30, 80])
+torch.Size([2, 30, 80])
+torch.Size([2, 30, 80])
+Saved best model from epoch 6 to saved_models/ghost_attention_fold7_best_epoch_6.pt
+Saved train results to ./results/ghost_attention_878l9wvi_fold7_best_epoch_6_train_results.csv
+Saved val results to ./results/ghost_attention_878l9wvi_fold7_best_epoch_6_val_results.csv
+Saved test results to ./results/ghost_attention_878l9wvi_fold7_best_epoch_6_test_results.csv
+========== BEST EPOCH TEST ==========
+Test Loss: 1.5064 | MAE: 0.96 | PCC: 0.50
